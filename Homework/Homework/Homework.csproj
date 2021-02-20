@@ -78,6 +78,7 @@
     <Content Include="Starter\Lesson 2\Exercise 1. Image Map\helperFolders\FunnyTriangle.html" />
     <Content Include="Starter\Lesson 2\Exercise 1. Image Map\ImageMap.html" />
     <Content Include="Starter\Lesson 2\Exercise 1. Image Map\img\figure.jpg" />
+    <Content Include="Starter\Lesson 2\Exercise 2. Create a table\Table.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
