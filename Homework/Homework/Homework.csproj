@@ -70,6 +70,8 @@
     <Content Include="Starter\Lesson 1\Exercise 1. Physical Markup tags\PhysicalMarkupTags.html" />
     <Content Include="Starter\Lesson 1\Exercise 2. Logical Markup tags\LogicalMarkupTags.html" />
     <Content Include="Starter\Lesson 1\Exercise 3. Train to make up page\HTML.html" />
+    <Content Include="Starter\Lesson 2\Additional Exercise\AdditionalExercise.html" />
+    <Content Include="Starter\Lesson 2\Additional Exercise\img\coffee.jpg" />
     <Content Include="Starter\Lesson 2\Exercise 1. Image Map\helperFolders\FunnyCircle.html" />
     <Content Include="Starter\Lesson 2\Exercise 1. Image Map\helperFolders\FunnyHexagon.html" />
     <Content Include="Starter\Lesson 2\Exercise 1. Image Map\helperFolders\FunnyRectangle.html" />
