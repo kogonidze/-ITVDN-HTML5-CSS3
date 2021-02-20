@@ -70,6 +70,14 @@
     <Content Include="Starter\Lesson 1\Exercise 1. Physical Markup tags\PhysicalMarkupTags.html" />
     <Content Include="Starter\Lesson 1\Exercise 2. Logical Markup tags\LogicalMarkupTags.html" />
     <Content Include="Starter\Lesson 1\Exercise 3. Train to make up page\HTML.html" />
+    <Content Include="Starter\Lesson 2\Exercise 1. Image Map\helperFolders\FunnyCircle.html" />
+    <Content Include="Starter\Lesson 2\Exercise 1. Image Map\helperFolders\FunnyHexagon.html" />
+    <Content Include="Starter\Lesson 2\Exercise 1. Image Map\helperFolders\FunnyRectangle.html" />
+    <Content Include="Starter\Lesson 2\Exercise 1. Image Map\helperFolders\FunnyRhombus.html" />
+    <Content Include="Starter\Lesson 2\Exercise 1. Image Map\helperFolders\FunnySquare.html" />
+    <Content Include="Starter\Lesson 2\Exercise 1. Image Map\helperFolders\FunnyTriangle.html" />
+    <Content Include="Starter\Lesson 2\Exercise 1. Image Map\ImageMap.html" />
+    <Content Include="Starter\Lesson 2\Exercise 1. Image Map\img\figure.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
