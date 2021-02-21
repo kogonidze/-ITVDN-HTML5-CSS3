@@ -82,6 +82,8 @@
     <Content Include="Starter\Lesson 2\Exercise 1. Image Map\img\figure.jpg" />
     <Content Include="Starter\Lesson 2\Exercise 2. Create a table\Table.html" />
     <Content Include="Starter\Lesson 2\Exercise 3. Create nested list\NestedList.html" />
+    <Content Include="Starter\Lesson 3\Additional Exercise\css\style.css" />
+    <Content Include="Starter\Lesson 3\Additional Exercise\index.html" />
     <Content Include="Starter\Lesson 3\Exercise 1. Styles\css\style.css" />
     <Content Include="Starter\Lesson 3\Exercise 1. Styles\index.html" />
     <Content Include="Starter\Lesson 3\Exercise 2. Borders\css\style.css" />
