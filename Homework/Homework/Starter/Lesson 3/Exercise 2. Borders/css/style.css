@@ -1,0 +1,47 @@
+﻿.border {
+    border-width: 4px;
+}
+
+.solidBorder {
+    border-style: solid;
+}
+
+.dashedBorder {
+    border-style: dashed;
+}
+
+.dottedBorder {
+    border-style: dotted;
+}
+
+.doubleBorder {
+    border-style: double;
+}
+
+.grooveBorder {
+    border-style: groove;
+}
+
+.ridgeBorder {
+    border-style: ridge;
+}
+
+.insetBorder {
+    border-style: inset;
+}
+
+.outsetBorder {
+    border-style: outset;
+}
+
+.blackBorder {
+    border-color: black;
+}
+
+.turquouseBorder {
+    border-color: #66e0d6;
+}
+
+.gradientBorder {
+    border-image: linear-gradient(to left bottom, #1e433f, #66e0d6) 5;
+}
