@@ -1,0 +1,16 @@
+﻿@font-face {
+	font-family: Oswald-Regular;
+	src: url('../fonts/Oswald-Regular.ttf') format('truetype');
+}
+
+p::first-letter {
+    color: red;
+    font-size: 130%;
+}
+p:nth-of-type(2n+1) {
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+p:nth-of-type(2n) {
+    font-family: Oswald-Regular;
+}
