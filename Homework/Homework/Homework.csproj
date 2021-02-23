@@ -89,6 +89,8 @@
     <Content Include="Starter\Lesson 3\Exercise 2. Borders\css\style.css" />
     <Content Include="Starter\Lesson 3\Exercise 2. Borders\index.html" />
     <Content Include="Starter\Lesson 3\Exercise 3. Background\index.html" />
+    <Content Include="Starter\Lesson 4\Exercise 1. Pseudoclasses and pseudoelements\css\style.css" />
+    <Content Include="Starter\Lesson 4\Exercise 1. Pseudoclasses and pseudoelements\index.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

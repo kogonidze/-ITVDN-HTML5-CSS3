@@ -1,0 +1,35 @@
+﻿a:link {
+    color: pink;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover
+{
+    color: greenyellow;
+}
+
+a:active
+{
+    color: darkred;
+}
+
+span:hover {
+    font-size: large;
+}
+
+p::after
+{
+    content: " Cсылка на сайт ниже:";
+}
+
+p::selection {
+    background-color: black;
+    color: yellow;
+}
+
+p::first-line {
+    font-variant-caps: all-petite-caps;
+}
