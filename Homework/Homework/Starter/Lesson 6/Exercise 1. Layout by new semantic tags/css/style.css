@@ -1,0 +1,41 @@
+﻿body {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+header {
+    width: 100%;
+    min-height: 70px;
+    background-color: aqua;
+}
+
+nav {
+    width: 100%;
+    min-height: 35px;
+    background-color: lightpink;
+}
+
+aside {
+    width: 25%;
+    min-height: 250px;
+    background-color: olivedrab;
+    float: left;
+}
+
+section {
+    width: 75%;
+    min-height: 250px;
+    background-color: lightgray;
+    float: left;
+}
+
+footer {
+    clear: both;
+    width: 100%;
+    min-height: 60px;
+    background-color: blue;
+}
+
+span {
+    font-weight: bold;
+}
