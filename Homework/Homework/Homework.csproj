@@ -98,6 +98,15 @@
     <Content Include="Starter\Lesson 5\Exercise 1. With bootsrap4\index.html" />
     <Content Include="Starter\Lesson 5\Exercise 2. Layout by template stickers\index.html" />
     <Content Include="Starter\Lesson 5\Exercise 2. With bootstrap4\index.html" />
+    <Content Include="Starter\Lesson 6\Exercise 1. Layout by new semantic tags\css\style.css" />
+    <Content Include="Starter\Lesson 6\Exercise 1. Layout by new semantic tags\index.html" />
+    <Content Include="Starter\Lesson 6\Exercise 2. Audio\audio\Vivaldi.mp3" />
+    <Content Include="Starter\Lesson 6\Exercise 2. Audio\audio\Vivaldi.ogg" />
+    <Content Include="Starter\Lesson 6\Exercise 2. Audio\index.html" />
+    <Content Include="Starter\Lesson 6\Exercise 3. Video\index.html" />
+    <Content Include="Starter\Lesson 6\Exercise 3. Video\video\vsvideo.mp4" />
+    <Content Include="Starter\Lesson 6\Exercise 3. Video\video\vsvideo.ogg" />
+    <Content Include="Starter\Lesson 6\Exercise 3. Video\video\vsvideo.webm" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
