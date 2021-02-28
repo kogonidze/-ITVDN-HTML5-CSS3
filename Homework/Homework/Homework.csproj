@@ -98,6 +98,8 @@
     <Content Include="Starter\Lesson 5\Exercise 1. With bootsrap4\index.html" />
     <Content Include="Starter\Lesson 5\Exercise 2. Layout by template stickers\index.html" />
     <Content Include="Starter\Lesson 5\Exercise 2. With bootstrap4\index.html" />
+    <Content Include="Starter\Lesson 6\Exercise 1. Layout by new semantic tags\css\style.css" />
+    <Content Include="Starter\Lesson 6\Exercise 1. Layout by new semantic tags\index.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
