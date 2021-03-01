@@ -109,6 +109,8 @@
     <Content Include="Starter\Lesson 6\Exercise 3. Video\video\vsvideo.webm" />
     <Content Include="Starter\Lesson 7\Additional exercise about form\index.html" />
     <Content Include="Starter\Lesson 7\Exercise 1. Form 1\index.html" />
+    <Content Include="Starter\Lesson 7\Exercise 2. Form 2 with bootstrap\index.html" />
+    <Content Include="Starter\Lesson 7\Exercise 2. Form 2 with bootstrap\styles\style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
