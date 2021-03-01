@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Form 1</title>
+    <style>
+        .requiredField {
+            font-weight: bold;
+        }
+
+        body {
+            max-width: 350px;
+            margin: 0 auto;
+        }
+
+        input {
+            width: 150px;
+            float: right;
+        }
+
+        select {
+            width: 150px;
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <form method="get" action="" enctype="application/x-www-form-urlencoded">
+        <fieldset>
+            <legend>
+                Personal Information
+            </legend>
+            <p>
+                <label for="firstName">
+                    <span class="requiredField"><sup>*</sup>First name:</span>
+                </label>
+                <input type="text" name="firstName" id="firstName" required pattern="[a-zA-Z]+"/>
+            </p>
+            <p>
+                <label for="middleName">
+                    <span>Middle name:</span>
+                </label>
+                <input type="text" name="middleName" id="middleName" pattern="[a-zA-Z]*"/>
+            </p>
+            <p>
+                <label for="lastName">
+                    <span class="requiredField"><sup>*</sup>Last name:</span>
+                </label>
+                <input type="text" name="lastName" id="lastName" required pattern="[a-zA-Z]+"/>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                Address
+            </legend>
+            <p>
+                <label for="address">
+                    <span>Address:</span>
+                </label>
+                <input type="text" name="address" id="address" pattern="[a-zA-Z]*"/>
+            </p>
+            <p>
+                <label for="cityOrTown">
+                    <span>City or Town:</span>
+                </label>
+                <input type="text" name="cityOrTown" id="cityOrTown" pattern="[a-zA-Z]*"/>
+            </p>
+            <p>
+                <label for="state">
+                    <span>State:</span>
+                </label>
+                <select name="state" id="state">
+                    <option disabled selected>Choose a State:</option>
+                    <optgroup label="Europe">
+                        <option value="Belarus">Belarus</option>
+                        <option value="Poland">Poland</option>
+                        <option value="Russia">Russia</option>
+                        <option value="Ukraine">Ukraine</option>
+                    </optgroup>
+                    <optgroup label="Asia">
+                        <option value="China">China</option>
+                        <option value="S.Korea">S.Korea</option>
+                    </optgroup>
+                    <optgroup label="Africa">
+                        <option value="Egypt">Egypt</option>
+                        <option value="Cameroon">Cameroon</option>
+                    </optgroup>
+                    <optgroup label="N.America">
+                        <option value="USA">USA</option>
+                        <option value="Canada">Canada</option>
+                    </optgroup>
+                    <optgroup label="S.America">
+                        <option value="Brazil">Brazil</option>
+                        <option value="Venezuela">Venezuela</option>
+                    </optgroup>
+                </select>
+            </p>
+            <p>
+                <label for="zipCode">
+                    <span class="requiredField"><sup>*</sup>Zip code:</span>
+                </label>
+                <input type="text" name="zipCode" id="zipCode" required pattern="[0-9]{6}"/>
+            </p>
+        </fieldset>
+
+        <p>
+            <input type="submit" />
+        </p>
+    </form>
+</body>
+</html>
