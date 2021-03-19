@@ -1,0 +1,85 @@
+body {
+    background-color: rgb(51, 51, 51);
+    width: 100%;
+    text-align: center;
+    height: 800px;
+}
+
+h3 {
+    color: white;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+}
+
+header {
+    width: 95%;
+    margin: 0 auto;
+    min-height: 80px;
+    margin-bottom: 15px;
+}
+
+nav {
+    width: 18%;
+    float: left;
+    min-height: 500px;
+}
+
+section {
+    width: 60%;
+    float: left;
+    height: 500px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+
+aside {
+    width: 18%;
+    float: right;
+    min-height: 500px;
+}
+
+footer {
+    clear: both;    
+    width: 95%;
+    margin: 0 auto;
+}
+
+article {
+    margin: 0 auto;
+    width: 95%;
+    height: 200px;
+}
+
+section header {
+    height: 80px;
+}
+
+section footer {
+    margin-top: 10px;
+    height: 80px;
+}
+.grayColor {
+    background-color: rgb(102, 102, 102);
+}
+
+.lightGrayColor {
+    background-color: rgb(153, 153, 153);
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.verticalFlex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.withBorders {
+    border: 1px solid black;
+    border-radius: 12px;
+}
