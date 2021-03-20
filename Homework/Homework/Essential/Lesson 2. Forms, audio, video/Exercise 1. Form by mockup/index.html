@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Запись к врачу</title>
+</head>
+<body>
+    <h1>Запись на прием</h1>
+
+    <form action="#" method="post">
+        <fieldset>
+            <legend>
+                Личная информация
+            </legend>
+            
+            <p>
+                <label>
+                    Имя
+                    <input type="text" name="name"/>
+                </label>
+                <br />
+            </p>
+           
+            <p>
+                <label>
+                    Телефон
+                    <input type="tel" name="phone" />
+                </label>
+                <br />
+            </p>
+          
+            <p>
+                <label>
+                    Адрес электронной почты
+                    <input type="email" name="email" />
+                </label>
+                <br />    
+            </p>
+            
+            <p>
+                <label>
+                    Дата рождения
+                    <input type="date" name="birthday" value="2000-01-01"/>
+                </label>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                Назначить прием
+            </legend>
+
+            <p>
+                <label>
+                    Какова причина вашего визита?
+                    <select name="reason">
+                        <option value="плановый осмотр">Плановый осмотр</option>
+                        <option value="простуда">Симптомы простуды или гриппа</option>
+                        <option value="анализы">Анализ крови</option>
+                        <option value="послеоперационный осмотр">Послеоперационный осмотр</option>
+                    </select>
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    Степень болевых ощущений
+                    <select name="pain">
+                        <option value="высокая">Высокая</option>
+                        <option value="средняя">Средняя</option>
+                        <option value="низкая">Низкая</option>
+                    </select>
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    Предпочтительная дата
+                    <input type="date" name="date" id="datePicker"/>
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    Предпочтительное время
+                    <input type="time" name="time" value="09:00"/>
+                </label>
+            </p>
+        </fieldset>
+
+        <br />
+        <input type="submit" value="Отправить" />
+    </form>
+
+    <script>
+        document.getElementById('datePicker').valueAsDate = new Date();
+    </script>
+</body>
+</html>
