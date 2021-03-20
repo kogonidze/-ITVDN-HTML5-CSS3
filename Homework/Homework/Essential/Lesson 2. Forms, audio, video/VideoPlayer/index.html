@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Player</title>
+</head>
+<body>
+    <video id="video" width="640" height="480" style="border: 2px solid black;" preload="auto"
+    controls muted>
+        <source src="video/vsvideo.mp4" type="video/mp4" />
+        <source src="video/vsvideo.ogg" type="video/ogg" />
+        <source src="video/vsvideo.webm" type="video/webm" />
+    </video>
+
+    <script>
+        var vid = document.getElementById("video");
+
+        vid.currentTime = 5;
+        console.log(`Support of mp4: ${vid.canPlayType("video/mp4")}`);
+        console.log(`Support of ogg: ${vid.canPlayType("video/ogg")}`);
+        console.log(`Support of webm: ${vid.canPlayType("video/webm")}`);
+        console.log(`Support of wav: ${vid.canPlayType("audio/wav")}`);
+
+        vid.onloadedmetadata = function() {
+            console.log(`Duration of video: ${vid.duration}`);
+        }
+
+        vid.onpause = function() {
+            console.log("Video is paused");
+        }
+
+        vid.onplay = function() {
+            console.log("Video is played");
+        }        
+    </script>
+</body> 
+</html>
