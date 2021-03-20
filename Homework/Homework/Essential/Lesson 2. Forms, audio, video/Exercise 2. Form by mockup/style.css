@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(237, 237, 237);
+}
+
+form {
+    margin: 0 auto;
+    width: 30%;
+}
+
+input {
+    float: right;
+    width: 200px;
+    margin-left: 10px;
+}
+
+label {
+    display: block;
+    text-align: right;
+}
+
+.confirmBtn {
+    float: none;
+    margin-left: 185px;
+    width: 100px;
+    height: 30px;
+    color: rgb(98, 92, 88);
+    font-weight: 700;
+}
